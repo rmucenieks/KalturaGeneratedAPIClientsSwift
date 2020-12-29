@@ -33,6 +33,8 @@
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
 
+import Foundation
+
 public class MultiRequestBuilder: ArrayRequestBuilder<Any?, BaseTokenizedObject, BaseTokenizedObject> {
     
     var requests = [RequestBuilderProtocol]()

@@ -32,6 +32,7 @@
  *
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
+import Foundation
 
 public class Result<T>: NSObject {
     

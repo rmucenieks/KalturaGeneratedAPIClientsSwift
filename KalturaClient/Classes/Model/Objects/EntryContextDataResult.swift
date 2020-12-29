@@ -32,6 +32,7 @@
  * 
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
+import Foundation
 
 open class EntryContextDataResult: ContextDataResult {
 

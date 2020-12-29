@@ -37,6 +37,7 @@
  */
 
 import MobileCoreServices
+import Foundation
 
 public typealias CompletionClosures =  (_ response: Result<Any>) -> Void
 

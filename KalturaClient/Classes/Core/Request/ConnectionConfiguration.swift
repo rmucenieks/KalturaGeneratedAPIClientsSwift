@@ -33,6 +33,8 @@
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
 
+import Foundation
+
 var defaultTimeOut = 3.0
 var defaultRetryCount = 3
 

@@ -161,9 +161,9 @@ open class ReachProfile: ObjectBase {
 			}
 		}
 		
-		public var dictionaries: ArrayTokenizedObject<Dictionary.DictionaryTokenizer> {
+		public var dictionaries: ArrayTokenizedObject<KalturaDictionary.DictionaryTokenizer> {
 			get {
-				return ArrayTokenizedObject<Dictionary.DictionaryTokenizer>(self.append("dictionaries"))
+				return ArrayTokenizedObject<KalturaDictionary.DictionaryTokenizer>(self.append("dictionaries"))
 			} 
 		}
 		
@@ -202,7 +202,7 @@ open class ReachProfile: ObjectBase {
 	public var rules: Array<Rule>? = nil
 	public var credit: BaseVendorCredit? = nil
 	public var usedCredit: Double? = nil
-	public var dictionaries: Array<Dictionary>? = nil
+	public var dictionaries: Array<KalturaDictionary>? = nil
 	/**  Comma separated flavorParamsIds that the vendor should look for it matching
 	  asset when trying to download the asset  */
 	public var flavorParamsIds: String? = nil

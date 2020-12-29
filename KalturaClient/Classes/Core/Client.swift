@@ -31,6 +31,7 @@
  * 
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
+import Foundation
 
 @objc public class Client: RequestBuilderData {
 	public var configuration: ConnectionConfiguration

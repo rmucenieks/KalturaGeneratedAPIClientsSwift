@@ -33,6 +33,8 @@
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
 
+import Foundation
+
 open class ESearchMetadataAggregationItem: ESearchAggregationItem {
 
 	public class ESearchMetadataAggregationItemTokenizer: ESearchAggregationItem.ESearchAggregationItemTokenizer {
@@ -54,17 +56,17 @@ open class ESearchMetadataAggregationItem: ESearchAggregationItem {
 	internal override func populate(_ dict: [String: Any]) throws {
 		try super.populate(dict);
 		// set members values:
-		if dict["fieldName"] != nil {
-			fieldName = ESearchMetadataAggregateByFieldName(rawValue: "\(dict["fieldName"]!)")
-		}
+//		if dict["fieldName"] != nil {
+//			fieldName = ESearchMetadataAggregateByFieldName(rawValue: "\(dict["fieldName"]!)")
+//		}
 
 	}
 
 	internal override func toDictionary() -> [String: Any] {
 		var dict: [String: Any] = super.toDictionary()
-		if(fieldName != nil) {
-			dict["fieldName"] = fieldName!.rawValue
-		}
+//		if(fieldName != nil) {
+//			dict["fieldName"] = fieldName!.rawValue
+//		}
 		return dict
 	}
 }

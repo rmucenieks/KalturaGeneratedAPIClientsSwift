@@ -32,6 +32,7 @@
  *
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
+import Foundation
 
 @objc public class SessionManager: NSObject {
     

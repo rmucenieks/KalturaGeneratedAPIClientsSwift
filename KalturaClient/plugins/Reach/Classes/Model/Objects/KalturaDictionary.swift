@@ -33,7 +33,9 @@
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
 
-open class Dictionary: ObjectBase {
+import Foundation
+
+open class KalturaDictionary: ObjectBase {
 
 	public class DictionaryTokenizer: ObjectBase.ObjectBaseTokenizer {
 		
